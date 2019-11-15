@@ -18,6 +18,7 @@
 
 知识点：基于某个区块每产生新的区块，对这个交易来说就增加了一次“证明”，当区块一个个堆上来时，
 这个交易变得指数级的越来越难被推翻 ，因此在网络中也获得越来越多的信任！！！（这段话还是不错的，敲一遍！）
-!["tran"](https://github.com/zzylydx/2019-10-15-/blob/master/image/transaction.png);
 <h2>对于中本聪比特币原论文有关交易这一块的理解</h2>
+!["tran"](https://github.com/zzylydx/2019-10-15-/blob/master/image/transaction.png);
+
 
