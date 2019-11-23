@@ -58,6 +58,6 @@ scriptPubkey : 锁定脚本，包含命令（OP_DUP等）和收款人的公钥�
 
   我们下面具体分析一下，看userB给userC发送btc，用到的是userA发送给他的那笔UTXO（不展开讲了，详情请看UTXO.md），所定脚本：pubkhash（B），解锁脚本：sig（B），pubk（B），它是通过解锁脚本去解锁之前的UTXO，也就是之前交易的输出，方式：通过用私钥进行签名，从而验证是这笔UTXO的拥有者，进而将余额放到下一个交易输出中，这时我们再回顾一下P2PKH的交易模型，最后一步，验证解锁脚本里面的sig和pubk是否匹配就说的通了，因为都是userB的，至此完成交易签名。
   
-有关签名具体是怎样验证的，有空再码~先放张图~*
+有关签名具体是怎样验证的，有空再码，先放张图~~~~
 
 !["tran"](https://github.com/zzylydx/2019-10-15-/blob/master/image/%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%EF%BC%88A%2BB%3DC%EF%BC%89.gif);
