@@ -60,4 +60,4 @@ scriptPubkey : 锁定脚本，包含命令（OP_DUP等）和收款人的公钥�
   
 有关签名具体是怎样验证的，有空再码~先放张图~*
 
-!["tran"](https://upload-images.jianshu.io/upload_images/1260884-d487ee2a8b981801.png);
+!["tran"](https://github.com/zzylydx/2019-10-15-/blob/master/image/%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF%EF%BC%88A%2BB%3DC%EF%BC%89.gif);
